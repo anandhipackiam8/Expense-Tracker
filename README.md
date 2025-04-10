@@ -18,3 +18,6 @@
 
 3)JAVASCRIPT
 
+<ins>***How to run the project***</ins>
+
+download html,css,javascript file and open html file  and run in browser.
