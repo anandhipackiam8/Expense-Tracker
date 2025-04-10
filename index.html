@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>The Third project</title>
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+<h2>Expense Tracker</h2>
+<div class="container">
+<h4>Your Balance</h4>
+<h1 id="balance">$0.00</h1>
+<div class="in-ex-container">
+<div>
+<h4>Income</h4>
+<p id="money-plus" class="money-plus">+$0.00</p>
+</div>
+<div>
+<h4>Balance</h4>
+<p id="money-minus" class="money-minus">-$0.00</p>
+</div>
+</div>
+<h4>History</h4>
+<ul id="list" class="list">
+</ul>
+<h3>Add a new Transaction</h3>
+<form id="form">
+<div class="form-control">
+<label for="text">Text</label>
+<input type="text" id="text"  placeholder="enter a text">
+</div>
+<div class="form-control">
+<label for="amount">Amount <br/> (positive-income , negative-expense)</label>
+<input type="number" id="amount"  placeholder="enter a number">
+</div>
+<button id="btn">Add a Transaction</button>
+</form>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
